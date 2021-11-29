@@ -9,7 +9,7 @@
 
 <h3 align="center">React Hooks Course Project - <a href="http://github-battle.ui.dev/">Github Battle App</a></h3>
 
-### Info Test
+### Info
 
 This is the repository for UI.dev's "React Hooks" course project.
 
