@@ -120,6 +120,10 @@ PlayerPreview.propTypes = {
   label: PropTypes.string.isRequired
 }
 
+//export default function Battle () {
+
+//}
+
 export default class Battle extends React.Component {
   state = {
     playerOne: null,
