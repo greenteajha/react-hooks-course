@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 function Instructions () {
   return (
     <ThemeConsumer>
-      {({ theme }) => (
+      {(theme) => (
         <div className='instructions-container'>
           <h1 className='center-text header-lg'>
             Instructions
@@ -50,7 +50,7 @@ class PlayerInput extends React.Component {
   render() {
     return (
       <ThemeConsumer>
-        {({ theme }) => (
+        {(theme) => (
           <form className='column player' onSubmit={this.handleSubmit}>
             <label htmlFor='username' className='player-label'>
               {this.props.label}
