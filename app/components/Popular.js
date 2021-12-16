@@ -79,6 +79,32 @@ ReposGrid.propTypes = {
   repos: PropTypes.array.isRequired
 }
 
+/*
+
+function popularReducer () {
+
+  if () {
+
+  } else if () {
+
+  } else {
+    
+  }
+
+}
+
+export default function Popular () {
+
+  const [selectedLanguage, setSelectedLanguage] = useState('All')
+  const [state, dispatch] = React.useReducer(
+    popularReducer,
+    { error : null }
+  )
+
+}
+
+*/
+
 export default class Popular extends React.Component {
   state = {
     selectedLanguage: 'All',
